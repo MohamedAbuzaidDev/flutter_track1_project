@@ -32,6 +32,8 @@ dependencies:
   device_preview: ^1.2.0
   flutter:
     sdk: flutter
+  lighter_app:
+    path: ./lighter_app
 
 dev_dependencies:
 
