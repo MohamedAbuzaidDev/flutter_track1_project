@@ -32,6 +32,8 @@ dependencies:
   device_preview: ^1.2.0
   flutter:
     sdk: flutter
+  xo_app:
+    path: ./xo_app
   calculator_app:
     path: ./calculator_app
   basket_app:
