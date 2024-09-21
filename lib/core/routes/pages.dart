@@ -1,3 +1,4 @@
+import 'package:basket_app/basket_app.dart';
 import 'package:flutter/material.dart';
 import 'package:track1_project/core/routes/routes_name.dart';
 import 'package:track1_project/pages/home_screen.dart';
@@ -13,6 +14,10 @@ class AppRoute {
       case RoutesName.home:
         return MaterialPageRoute(builder: (_) {
           return const HomeScreen();
+        });
+      case RoutesName.basketApp:
+        return MaterialPageRoute(builder: (_) {
+          return const BasketAppScreen();
         });
       default:
         throw Exception('Route not found!');
