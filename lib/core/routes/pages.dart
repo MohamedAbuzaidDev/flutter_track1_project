@@ -1,3 +1,4 @@
+import 'package:calculator_app/calculator_app.dart';
 import 'package:flutter/material.dart';
 import 'package:track1_project/core/routes/routes_name.dart';
 import 'package:track1_project/pages/home_screen.dart';
@@ -13,6 +14,10 @@ class AppRoute {
       case RoutesName.home:
         return MaterialPageRoute(builder: (_) {
           return const HomeScreen();
+        });
+      case RoutesName.calculatorApp:
+        return MaterialPageRoute(builder: (_) {
+          return const CalculatorApp();
         });
       default:
         throw Exception('Route not found!');
