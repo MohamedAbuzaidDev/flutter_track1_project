@@ -402,6 +402,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.4"
+  xo_app:
+    dependency: "direct main"
+    description:
+      path: xo_app
+      relative: true
+    source: path
+    version: "0.0.1"
 sdks:
   dart: ">=3.5.3 <4.0.0"
   flutter: ">=3.22.0"
