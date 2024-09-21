@@ -1,3 +1,4 @@
+import 'package:calculator_app/calculator_app.dart';
 import 'package:basket_app/basket_app.dart';
 import 'package:flutter/material.dart';
 import 'package:lighter_app/lighter.dart';
@@ -15,6 +16,10 @@ class AppRoute {
       case RoutesName.home:
         return MaterialPageRoute(builder: (_) {
           return const HomeScreen();
+        });
+      case RoutesName.calculatorApp:
+        return MaterialPageRoute(builder: (_) {
+          return const CalculatorApp();
         });
       case RoutesName.basketApp:
         return MaterialPageRoute(builder: (_) {
