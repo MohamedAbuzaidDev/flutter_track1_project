@@ -34,6 +34,8 @@ dependencies:
     sdk: flutter
   basket_app:
     path: ./basket_app
+  lighter_app:
+    path: ./lighter_app
 
 dev_dependencies:
 
